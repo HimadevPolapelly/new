@@ -1,0 +1,41 @@
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.todo-item {
+  margin-bottom: 10px;
+}
+
+.todo-item input[type="text"] {
+  margin-right: 10px;
+}
+
+.edit-btn,
+.save-btn,
+.delete-btn {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.save-btn {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: #fff;
+}
